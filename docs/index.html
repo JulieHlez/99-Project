@@ -29,15 +29,13 @@
 	
 	
 	
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/customcontrols/style.css">
-  
 	
 
 
 
   <!-- Revealjs Theme -->
   
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/white.css" id="theme">
+  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/black.css" id="theme">
   
   
 
@@ -47,6 +45,8 @@
 
 
   <!-- Revealjs Theme -->
+  
+  <link rel="stylesheet" href="white-custom.css">
   
 
    <!-- css list -->
@@ -60,7 +60,7 @@
 
    
     <div id="logo" style="position: fixed; top: 20px; left: 20px; z-index: 1; height:3rem;">
-        <img src="https://logowik.com/content/uploads/images/un-united-nations3511.logowik.com.webp" style="height:100%"/>
+        <img src="https://www.lewagon.com/assets/v4/logo-lewagon-9c19fb39a748cd3b1f49059ce0dc6c0dfc4cc2447d5a9a3e01bd2d5a214faf3c.svg" style="height:100%"/>
     </div>
 
 
@@ -70,6 +70,19 @@
     <div class="slides">
 
       
+
+
+    
+        <section data-background="https://theowp.org/wp-content/uploads/2021/06/climate-change-drought-environment-desert-landscape-disaster-ecology-planet.jpg">
+            
+            <h2>Global temperature and climate change decision science</h2>
+<p>Project pitch by
+<em>Julie Hallez</em></p>
+<p><a><img width="200" data-src="https://www.lewagon.com/assets/v4/logo-lewagon-9c19fb39a748cd3b1f49059ce0dc6c0dfc4cc2447d5a9a3e01bd2d5a214faf3c.svg"></a></p>
+<!--.slide: data-background="https://theowp.org/wp-content/uploads/2021/06/climate-change-drought-environment-desert-landscape-disaster-ecology-planet.jpg"-->
+            </section>
+    
+
 
 
     
@@ -99,8 +112,33 @@
 
     
     <section>
-        <section >
-            <h2>Challenges</h2>
+        <section data-background-gradient="radial-gradient( #17b2c3, #283b95 )">
+            <!-- .slide: data-background-gradient="radial-gradient( #17b2c3, #283b95 )" -->
+<h2>Challenges</h2>
+
+            </section>
+        
+            <section >
+                <p>We will use <strong>prescriptive analytics</strong>, very useful skillset to add to your portfolio.</p>
+
+            </section>
+        
+            <section >
+                <p>There are <strong>four</strong> key types of data analytics, which answer different questions:</p>
+<ul>
+<li>
+<p><strong>Descriptive</strong>,  “What happened?”</p>
+</li>
+<li>
+<p><strong>Diagnostic</strong>,  “Why did this happen?”</p>
+</li>
+<li>
+<p><strong>Predictive</strong>,  “What might happen in the future?”</p>
+</li>
+<li>
+<p><strong>Prescriptive</strong>,  “What should we do next?”</p>
+</li>
+</ul>
 
             </section>
         
@@ -123,15 +161,20 @@
             </section>
         
             <section >
-                <p>Illustrate how strongly each feature correlates to the target</p>
-<p>Target: Global Temperatures</p>
-<p>Features:</p>
+                <p>The main goal is to illustrate how strongly each feature correlates to the target.</p>
+<p><strong>Target</strong>: Global Temperature</p>
+<p><a><img width="300" data-src="https://blog.certifiedmtp.com/wp-content/uploads/2024/08/What-Temp-Is-It-Your-Quick-Guide-to-Temperature-Conversion-1024x751.png"></a></p>
+
+            </section>
+        
+            <section >
+                <p><strong>Features</strong>:</p>
 <ul>
 <li>Climate features
 <ul>
-<li>Greenhouse gasses emissions</li>
-<li>Clean Energy production / consumption</li>
-<li>Natural Disasters occurence</li>
+<li class="fragment fade-in">Greenhouse gasses emissions</li>
+<li class="fragment fade-in">Clean energy production / consumption</li>
+<li class="fragment fade-in">Natural disasters occurence</li>
 </ul>
 </li>
 </ul>
@@ -139,14 +182,14 @@
             </section>
         
             <section >
-                <ul>
+                <p><strong>Features</strong>:</p>
+<ul>
 <li>Economic features
 <ul>
-<li>Inequalities</li>
-<li>Government policies</li>
-<li>Press freedom index
-<img src="images/press-freedom-index-rsf.svg" alt=""></li>
-<li>Education</li>
+<li class="fragment fade-in">Inequalities</li>
+<li class="fragment fade-in">Government policies</li>
+<li class="fragment fade-in">Education</li>
+<li class="fragment fade-in">Press freedom index<iframe src="https://ourworldindata.org/grapher/press-freedom-index-rsf?time=latest&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></li>
 </ul>
 </li>
 </ul>
@@ -154,11 +197,12 @@
             </section>
         
             <section >
-                <ul>
+                <p><strong>Features</strong>:</p>
+<ul>
 <li>Human features
 <ul>
-<li>Understanding of climate change / Climatoscepticism</li>
-<li>Responsible consumption (plant based)<iframe src="https://ourworldindata.org/grapher/press-freedom-index-rsf?time=latest&tab=map" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe></li>
+<li class="fragment fade-in">Understanding of climate change / Climatoscepticism</li>
+<li class="fragment fade-in">Responsible consumption (ex: plant based diet)</li>
 </ul>
 </li>
 </ul>
@@ -172,12 +216,26 @@
 
 
     
+    <section>
         <section >
-            
             <h2>Methodology</h2>
-<p>Machine learning with time series</p>
+<p><span class="fragment">Machine learning with time series</span></p>
+<p><span class="fragment">SHAP (SHapley Additive exPlanations)</span></p>
 
             </section>
+        
+            <section >
+                <h3>Demo Day</h3>
+<ul>
+<li>Data visualization</li>
+<li>Several different scenarios</li>
+<li>Areas of improvement for climate actions</li>
+</ul>
+
+            </section>
+        
+
+    </section>
     
 
 
@@ -187,7 +245,8 @@
             
             <h2>Datasets</h2>
 <p>Our World in Data</p>
-
+<p>All data available in .csv and .json</p>
+<iframe src="https://ourworldindata.org/grapher/global-energy-substitution?tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
             </section>
     
 
@@ -196,111 +255,9 @@
     
         <section >
             
-            <h3>SDG: Sustainable Development Goals</h3>
-<p>Project pitch by <em>Julie Hallez</em></p>
-<p><a><img width="200" data-src="https://www.lewagon.com/assets/v4/logo-lewagon-9c19fb39a748cd3b1f49059ce0dc6c0dfc4cc2447d5a9a3e01bd2d5a214faf3c.svg"></a></p>
+            <p><a><img width="800" data-src="images/thanks.jpg"></a></p>
 
             </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3>The context</h3>
-<p class="fragment fade-in-then-semi-out&quot;"><strong>The Sustainable Development Goals (SDGs)</strong> aim to transform our world. They are a call to action to end poverty and inequality, protect the planet, and ensure that all people enjoy health, justice and prosperity.</p>
-<p><strong class="fragment fade-in-then-semi-out&quot;">They were created in 2015 by the United Nations.
-<a><img width="600" data-src="https://logowik.com/content/uploads/images/un-united-nations3511.logowik.com.webp"></a></strong></p>
-
-            </section>
-        
-            <section >
-                <p><img src="https://www.ces.de/wp-content/uploads/sdg-61.jpg" alt=""></p>
-
-            </section>
-        
-            <section >
-                <p>We will focus on <strong>Goal 13:</strong> <strong class="fragment highlight-green">Climate action</strong>.</p>
-<p><img src="images/13-climate-action.png" alt=""></p>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3>Project goals</h3>
-
-            </section>
-        
-            <section >
-                <p><strong>Biggest question:</strong></p>
-<p>How are the other goals correlated to climate change?</p>
-
-            </section>
-        
-            <section >
-                <p>Can we predict climate change in specific cases such as:</p>
-<p><span class="fragment">- Europe hits zero greenhouse gases emissions by 2030</span></p>
-<p><span class="fragment">- higher education everywhere = no more climatosceptics</span></p>
-<p><span class="fragment">- if the United States go back to 100% fossil fuels, how badly is the rest of the world impacted?</span></p>
-
-            </section>
-        
-
-    </section>
-    
-
-
-
-    
-        <section >
-            
-            <h3>Demo day</h3>
-<ul>
-<li>Machine Learning</li>
-<li>go through several scenarios</li>
-<li>data visualisation</li>
-</ul>
-
-            </section>
-    
-
-
-
-    
-    <section>
-        <section >
-            <h3>Datasets</h3>
-
-            </section>
-        
-            <section >
-                <p>from the United Nations website: <a href="https://unstats.un.org/sdgs/dataportal/">https://unstats.un.org/sdgs/dataportal/</a></p>
-<p><a href="https://ourworldindata.org/sdgs/climate-action">https://ourworldindata.org/sdgs/climate-action</a></p>
-<p>Free APIs: <a href="https://unstats.un.org/SDGAPI/swagger/">https://unstats.un.org/SDGAPI/swagger/</a></p>
-
-            </section>
-        
-            <section >
-                <p>World Data Bank:</p>
-<p><img src="images/worlddata-bank-screenshot.png" alt=""></p>
-<p>predictive analytics
-prescreptive analytics
-SHAP
-lime
-<a href="https://www.kaggle.com/code/mpwolke/sustainable-development-goals">https://www.kaggle.com/code/mpwolke/sustainable-development-goals</a></p>
-
-            </section>
-        
-
-    </section>
     
 
 
@@ -337,8 +294,8 @@ lime
 
 <script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
 <script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
+
+
 
 <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
 <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
@@ -352,7 +309,7 @@ lime
       RevealHighlight,
       RevealMath.MathJax3,
       RevealAnimate,
-      RevealChalkboard, 
+      
 			RevealEmbedTweet,
 			RevealChart,
 		];
@@ -361,12 +318,12 @@ lime
 		RevealZoom, 
 		RevealSearch, 
 				RevealMarkdown, 
-				RevealMenu, 
+				
 				RevealFullscreen,
 				RevealAnything,
 				//RevealAudioSlideshow,
 				//RevealAudioRecorder,
-				RevealCustomControls, 
+				
 				// poll
 				// question
 				// seminar
@@ -460,11 +417,6 @@ lime
         startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
       },
       
-      chalkboard: { // font-awesome.min.css must be available
-        //src: "chalkboard/chalkboard.json",
-        storage: "chalkboard-demo",
-      },
-      
 			customcontrols: {
 					controls: [
       						{
@@ -473,18 +425,7 @@ lime
 						  icon: '<i class="fa fa-th"></i>',
 						  action: 'Reveal.toggleOverview();'
 						}
-						,
-      {
-        icon: '<i class="fa fa-pen-square"></i>',
-        title: 'Toggle chalkboard (B)',
-        action: 'RevealChalkboard.toggleChalkboard();'
-      },
-      {
-        icon: '<i class="fa fa-pen"></i>',
-        title: 'Toggle notes canvas (C)',
-        action: 'RevealChalkboard.toggleNotesCanvas();'
-      }
-      
+						
 				]
 			},
 			chart: {
